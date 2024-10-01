@@ -1,0 +1,146 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+body {
+    background-color: #f5f6fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 15px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.subtitle a {
+    color: #0e41ce;
+    text-decoration: none;
+}
+
+.subtitle a:hover {
+    text-decoration: underline;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.google-btn {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 85%;
+}
+
+.fb-btn {
+    background-color: white;
+    border: 2px solid #0d339c;
+    padding: 10px;
+    width: 45px;
+}
+
+img {
+    height: 20px;
+}
+
+.or {
+    margin: 20px 0;
+    position: relative;
+}
+
+.or span {
+    background-color: white;
+    padding: 0 10px;
+    color: #000000;
+    font-size: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.or:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    z-index: 0;
+}
+
+.email-login {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.email-login label {
+    font-size: 15px;
+    color: #817d7d;
+}
+
+.email-login input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.cta-btn {
+    width: 100%;
+    background-color: #0d339c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.cta-btn:hover {
+    background-color: #0d339c;
+}
+
+.forget-pass {
+    color: #0d339c;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.forget-pass:hover {
+    text-decoration: underline;
+}
